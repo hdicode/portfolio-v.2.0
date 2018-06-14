@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+
 html { 
     background: url(../images/bg.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -6,8 +8,60 @@ html {
     background-size: cover;
 }
 
+@font-face {
+    font-family: LocalFont001;
+    src: url(../fonts/BarlowSemiCondensed-Regular.ttf);
+}
+
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Barlow Semi Condensed', 'LocalFont001', sans-serif;
+}
+
 #navbar {
     overflow: hidden;
     background-color: #333;
+    z-index: 2;
 }
 
+#navbar a {
+    float: left;
+    display: block;
+    height:20px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 16px;
+}
+.content2,
+.content3 {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+
+.active {
+    background-color: #307FB5;
+}
+
+.sticky + .content {
+    padding-top: 64px;
+}
+
+.outline {
+    background: #696969;
+    opacity: 0.5;
+    padding:10px;
+    border-radius:8px;
+    border: 1px solid #fff;
+    text-align: justify;
+}
