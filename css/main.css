@@ -35,7 +35,8 @@ body {
     text-decoration: none;
 }
 
-.content {
+.header,
+.content1 {
     padding: 16px;
 }
 .content2,
@@ -53,15 +54,15 @@ body {
     background-color: #307FB5;
 }
 
-.sticky + .content {
+.sticky + .content1 {
     padding-top: 64px;
 }
 
 .outline {
-    background: #696969;
-    opacity: 0.5;
-    padding:10px;
+    background-color:rgba(255,247,219,0.2);
+    padding:15px;
     border-radius:8px;
     border: 1px solid #fff;
     text-align: justify;
+    color:#555555;
 }
