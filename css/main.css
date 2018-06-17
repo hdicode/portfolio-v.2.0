@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
 
 html { 
-    background: url(../images/bg.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
+    /* background: url(../images/bg.jpg) no-repeat center center fixed;  */
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 
 @font-face {
@@ -17,6 +17,25 @@ body {
     padding:0;
     margin:0;
     font-family: 'Barlow Semi Condensed', 'LocalFont001', sans-serif;
+    
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(200,0,0,0.498039) 50%, rgba(200,0,0,0.498039) 0), -webkit-linear-gradient(0deg, rgba(0,0,0,0) 50%, rgba(200,0,0,0.498039) 50%, rgba(200,0,0,0.498039) 0), #FFFFFF;
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,0) 50%, rgba(200,0,0,0.498039) 50%, rgba(200,0,0,0.498039) 0), -moz-linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(200,0,0,0.498039) 50%, rgba(200,0,0,0.498039) 0), #FFFFFF;
+    background: linear-gradient(0deg, rgba(0,0,0,0) 50%, rgba(200,0,0,0.498039) 50%, rgba(200,0,0,0.498039) 0), linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(200,0,0,0.498039) 50%, rgba(200,0,0,0.498039) 0), #FFFFFF;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
 }
 
 #navbar {
